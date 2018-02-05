@@ -1,0 +1,52 @@
+.jd-layout{
+	min-width:300px;
+	max-width:640px;
+	margin:0 auto;
+	
+	position:relative;
+}
+.jd-header{
+	position:fixed;
+	top:0;
+	height:40px;
+	width: 100%;
+}
+header{
+	background: #BA1422;
+	min-width: 300px;
+	max-width:640px;
+	width:100%;
+	padding-right: 46px;
+	height:40px;
+	padding-left: 77px;
+	position:relative;
+	padding-top: 5px;
+	padding-bottom: 7px;
+}
+.icon-logo{
+	width:60px;
+	height: 24px;
+	display:block;
+	background-position: 0px -106px;
+	position: absolute;
+	left: 7px;
+	top: 5px;
+}
+
+header .search{
+	width:100%;
+	/* margin-right: 59px; */
+	/* margin-left: 73px; */
+	/* margin-top: 6px; */
+	padding-left: 21px;
+	height: 29px;
+	border-radius: 18px;
+}
+header .btn{
+	position:absolute;
+	right: 6px;
+	line-height: 40px;
+	top: -1px;
+	color:white;
+	font-size: 16px;
+}
