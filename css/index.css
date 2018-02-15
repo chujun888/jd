@@ -112,4 +112,111 @@ position: absolute;
 	padding:14px 14px;
 	width:100%;
 }
+main{
+	margin:0 5px;
+	margin-top:5px;
+}
+main .product{
+	margin-top:10px;
+    padding-bottom:5px;
+	background:#fff;
+	border:1px solid #e0e0e0;
+}
+main .pro-top{
+	height:30px;
+	margin:5px  5px  0  5px;
+	
+	border-bottom:1px solid  #e0e0e0;
+}
+main .pro-top h3{
+	float:left;
+}
+main .pro-bot{
+	
+}
+main .product .no-bar{
+	border-bottom:0px;
+	font-size:15px;
+}
+main .no-bar h3{
+		color:#d8505c;
+
+	margin-left:5px;
+	margin-right:5px;
+}
+main .no-bar .time-num{
+	height:20px;
+	width:14px; 
+	text-align:center;
+	line-height:20px;
+	margin-right:4px;
+	float:left;
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
+main .no-bar .time-str{
+	line-height:20px;
+	margin-right:4px;
+	float:left;
+}
+
+main .no-bar a{
+	float:right;
+}
+.pro-top .time-icon{
+	float:left;
+	display:block;
+	height:20px;
+	width:16px;
+	background:url(../img/seckill-icon.png) ;
+	background-size:16px 20px;
+}
+main .product:first-child .pro-bot ul{
+	width:100%;
+	display:flex;
+}
+main .product:first-child .pro-bot li{
+	text-align:center;
+	margin-right:1px solid #e0e0e0;
+	flex:1;
+}
+main .product:first-child .pro-bot .new-price{
+	color:#888;
+	font-size:13px;
+	
+}
+main .product:first-child .pro-bot .price{
+	text-decoration: line-through;
+	color:#D8505C;
+	font-size:13px;
+}
+main .product:first-child .pro-bot a img{
+	width:100%;
+	padding:0 20%;
+	display:block;
+	border-right:1px solid #e0e0e0;
+}
+main .product .pro-block{
+	display:flex;
+	width:100%;
+}
+main .product .pro-block a{
+	
+	width:100%;
+}
+main .product .pro-block a img{
+	
+	width:100%;
+}
+main .pro-block .pro-left{
+	flex:1;
+}
+main .pro-block .pro-right{
+	flex:1;
+}
+
+
+
+
 
