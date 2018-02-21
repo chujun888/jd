@@ -10,9 +10,10 @@
 	top:0;
 	height:40px;
 	width: 100%;
+	z-index:1000;
 }
 header{
-	background: #BA1422;
+	background: rgba(186,20,34,0);
 	min-width: 300px;
 	max-width:640px;
 	width:100%;
@@ -55,11 +56,12 @@ header .btn{
 	overflow:hidden;
 }
 .crousel .banner{
-	width:400%;
+	width:600%;
+	transform: translateX(-16.6666667%);
 }
 .crousel .banner li{
 	float:left;
-	width:25%;
+	width:16.6666667%;
 }
 .crousel .initor{
 position: absolute;
